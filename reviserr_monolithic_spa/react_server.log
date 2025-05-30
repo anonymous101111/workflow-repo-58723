@@ -135,3 +135,84 @@ src/components/Quiz.js
 Search for the keywords to learn more about each error.
 
 webpack compiled with 6 errors and 1 warning
+Compiling...
+Failed to compile.
+
+Module not found: Error: Can't resolve './components/ServiceWorkerReg' in '/home/kavia/workspace/code-generation/workflow-repo-58723/reviserr_monolithic_spa/src'
+WARNING in [eslint] 
+src/App.js
+  Line 23:10:  'quizIdx' is assigned a value but never used  no-unused-vars
+
+src/components/Quiz.js
+  Line 50:72:  React Hook React.useMemo has a missing dependency: 'mcqs'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+ERROR in ./src/App.js 11:0-61
+Module not found: Error: Can't resolve './components/ServiceWorkerReg' in '/home/kavia/workspace/code-generation/workflow-repo-58723/reviserr_monolithic_spa/src'
+
+ERROR in ./src/App.js 12:0-49
+Module not found: Error: Can't resolve './components/InfoBanner' in '/home/kavia/workspace/code-generation/workflow-repo-58723/reviserr_monolithic_spa/src'
+
+ERROR in ./src/components/FileUpload.js 52:27-64
+Module not found: Error: Can't resolve 'pdfjs-dist/legacy/build/pdf' in '/home/kavia/workspace/code-generation/workflow-repo-58723/reviserr_monolithic_spa/src/components'
+
+ERROR in ./src/components/FileUpload.js 85:26-62
+Module not found: Error: Can't resolve 'mammoth/mammoth.browser.js' in '/home/kavia/workspace/code-generation/workflow-repo-58723/reviserr_monolithic_spa/src/components'
+
+ERROR in [eslint] 
+src/components/Quiz.js
+  Line 50:19:  React Hook "React.useMemo" is called conditionally. React Hooks must be called in the exact same order in every component render. Did you accidentally call a React Hook after an early return?  react-hooks/rules-of-hooks
+
+Search for the keywords to learn more about each error.
+
+webpack compiled with 5 errors and 1 warning
+Compiling...
+Failed to compile.
+
+Module not found: Error: Can't resolve './components/ServiceWorkerReg' in '/home/kavia/workspace/code-generation/workflow-repo-58723/reviserr_monolithic_spa/src'
+WARNING in [eslint] 
+src/App.js
+  Line 23:10:  'quizIdx' is assigned a value but never used  no-unused-vars
+
+src/components/Quiz.js
+  Line 50:72:  React Hook React.useMemo has a missing dependency: 'mcqs'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+ERROR in ./src/App.js 11:0-61
+Module not found: Error: Can't resolve './components/ServiceWorkerReg' in '/home/kavia/workspace/code-generation/workflow-repo-58723/reviserr_monolithic_spa/src'
+
+ERROR in ./src/components/FileUpload.js 52:27-64
+Module not found: Error: Can't resolve 'pdfjs-dist/legacy/build/pdf' in '/home/kavia/workspace/code-generation/workflow-repo-58723/reviserr_monolithic_spa/src/components'
+
+ERROR in ./src/components/FileUpload.js 85:26-62
+Module not found: Error: Can't resolve 'mammoth/mammoth.browser.js' in '/home/kavia/workspace/code-generation/workflow-repo-58723/reviserr_monolithic_spa/src/components'
+
+ERROR in [eslint] 
+src/components/Quiz.js
+  Line 50:19:  React Hook "React.useMemo" is called conditionally. React Hooks must be called in the exact same order in every component render. Did you accidentally call a React Hook after an early return?  react-hooks/rules-of-hooks
+
+Search for the keywords to learn more about each error.
+
+webpack compiled with 4 errors and 1 warning
+Compiling...
+Failed to compile.
+
+Module not found: Error: Can't resolve 'pdfjs-dist/legacy/build/pdf' in '/home/kavia/workspace/code-generation/workflow-repo-58723/reviserr_monolithic_spa/src/components'
+WARNING in [eslint] 
+src/App.js
+  Line 23:10:  'quizIdx' is assigned a value but never used  no-unused-vars
+
+src/components/Quiz.js
+  Line 50:72:  React Hook React.useMemo has a missing dependency: 'mcqs'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+ERROR in ./src/components/FileUpload.js 52:27-64
+Module not found: Error: Can't resolve 'pdfjs-dist/legacy/build/pdf' in '/home/kavia/workspace/code-generation/workflow-repo-58723/reviserr_monolithic_spa/src/components'
+
+ERROR in ./src/components/FileUpload.js 85:26-62
+Module not found: Error: Can't resolve 'mammoth/mammoth.browser.js' in '/home/kavia/workspace/code-generation/workflow-repo-58723/reviserr_monolithic_spa/src/components'
+
+ERROR in [eslint] 
+src/components/Quiz.js
+  Line 50:19:  React Hook "React.useMemo" is called conditionally. React Hooks must be called in the exact same order in every component render. Did you accidentally call a React Hook after an early return?  react-hooks/rules-of-hooks
+
+Search for the keywords to learn more about each error.
+
+webpack compiled with 3 errors and 1 warning
