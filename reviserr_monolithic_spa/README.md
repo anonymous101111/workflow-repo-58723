@@ -1,13 +1,18 @@
-# Lightweight React Template for KAVIA
+# Reviserr Monolithic SPA
 
-This project provides a minimal React template with a clean, modern UI and minimal dependencies.
+A single-page React app enabling privacy-first, offline/online revision for students.
 
 ## Features
 
-- **Lightweight**: No heavy UI frameworks - uses only vanilla CSS and React
-- **Modern UI**: Clean, responsive design with KAVIA brand styling
-- **Fast**: Minimal dependencies for quick loading times
-- **Simple**: Easy to understand and modify
+- **Secure File Upload**: All files are processed in-browser; no backend involved.
+- **Client-Side Extraction**: Extracts text from PDF/DOCX.
+- **In-memory API Key**: User LLM API keys are never persisted or sent anywhere except direct LLM APIs.
+- **MCQ Generation**: Supports OpenAI and Cohere APIs; easy to extend.
+- **Interactive Quizzing**: With accessibility-first feedback and screen reader support.
+- **Offline Support**: Service worker enables static asset caching and offline quizzes.
+- **Privacy-first**: No data leaves user's browser except direct LLM calls.
+- **Accessibility**: High-contrast, keyboard navigable UI.
+- **Robust Error Handling**: UI displays errors and banners for issues (API, extraction, etc).
 
 ## Getting Started
 
