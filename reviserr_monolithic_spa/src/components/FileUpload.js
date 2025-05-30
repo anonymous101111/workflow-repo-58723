@@ -76,8 +76,8 @@ function FileUpload({ onExtracted, onError, onCancel }) {
   // DOCX extraction using mammoth.js
   // PUBLIC_INTERFACE
   async function extractDocx(file) {
-    // dynamic import
-    const mammoth = await import('mammoth/mammoth.browser.js');
+    // dynamic import from package root
+    const mammoth = await import('mammoth');
     return new Promise((resolve, reject) => {
       const fileReader = new FileReader();
       fileReader.onload = async (e) => {
